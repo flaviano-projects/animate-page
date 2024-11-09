@@ -1,0 +1,15 @@
+.animate { overflow-x: hidden; } 
+
+.animate [element="hide"] { opacity: 0; }
+
+.animate .normal { opacity: 0; transition: all 2s linear; }
+
+.animate .animate-normal { opacity: 1; transition: all 2s linear; }
+
+.animate .left { opacity: 0; transition: all 2s linear; transform: translateX(-100%); }
+
+.animate .animate-left { opacity: 1; transform: translateX(0); transition: all 2s linear; }
+
+.animate .right { opacity: 0; transition: all 2s linear; transform: translateX(+100%); }
+
+.animate .animate-right { opacity: 1; transform: translateX(0); transition: all 2s linear; }
